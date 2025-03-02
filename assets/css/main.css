@@ -2569,6 +2569,8 @@ input, select, textarea {
 	}
 
 		.image img {
+			max-width: 100%; /* Verhindert, dass Bilder zu groß werden */
+			height: auto; /* Erhält das Seitenverhältnis */
 			border-radius: 0.25em;
 			display: block;
 		}
