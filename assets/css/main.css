@@ -2605,8 +2605,8 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
-				max-height: 50px; /* Bild darf maximal 400px hoch sein */
-				height: auto; /* Erhält das Seitenverhältnis */
+				height: 50px; /* Bild darf maximal 400px hoch sein */
+				/*height: auto;  Erhält das Seitenverhältnis */
 			}
 
 		.image.main {
