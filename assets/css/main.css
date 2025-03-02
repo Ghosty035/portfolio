@@ -2581,7 +2581,6 @@ input, select, textarea {
 
 			.image.left img, .image.right img {
 				width: 100%;
-				height: auto; /* Erhält das Seitenverhältnis */
 			}
 
 		.image.left {
@@ -2600,11 +2599,13 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			max-height: 50px; /* Bild darf maximal 400px hoch sein */
 			height: auto; /* Erhält das Seitenverhältnis */
 		}
 
 			.image.fit img {
 				width: 100%;
+				max-height: 50px; /* Bild darf maximal 400px hoch sein */
 				height: auto; /* Erhält das Seitenverhältnis */
 			}
 
